@@ -14,6 +14,7 @@ referral link for futher subscriptions with referral links
 - [fastify-swagger](https://github.com/fastify/fastify-swagger)
 - [fastify-type-provider-zod](https://github.com/fastify/fastify-type-provider-zod)
 - [fastify-swagger-ui](https://github.com/fastify/fastify-swagger-ui)
+- [tsup](https://github.com/evanw/tsup)
 
 ### Setup
 
@@ -27,3 +28,6 @@ WEB_URL=
 ```
 
 Next run `npm install` for install all needed dependencies for the api
+
+In deploy situation you can run `npm run build`
+that uses tsup for faster building in js

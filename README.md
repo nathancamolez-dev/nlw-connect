@@ -25,9 +25,17 @@ PORT=
 POSTGRES_URL=
 REDIS_URL=
 WEB_URL=
+OPENAI_API_KEY=
 ```
 
 Next run `npm install` for install all needed dependencies for the api
 
 In deploy situation you can run `npm run build`
 that uses tsup for faster building in js
+
+### AI
+
+The AI is made by [ai-sdk](https://sdk.vercel.ai/docs/getting-started/nodejs)
+
+The model used i gpt4.0- , you have to make a account on openai to generate the api key.
+Because of this the route for the AI is commented.

@@ -45,6 +45,7 @@ app.register(getSubscriberInviteClicksRoute)
 app.register(getSubscriberInvitesCountRoute)
 app.register(getSubscriberRankingPositionRoute)
 app.register(getRankingRoute)
+app.register(sendMesageRoute)
 
 app
   .listen({
